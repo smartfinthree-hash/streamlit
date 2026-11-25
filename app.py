@@ -5,7 +5,7 @@ st.set_page_config(page_title="나의 지출 대시보드", page_icon="💰", la
 st.title("💰 나의 지출 대시보드")
 st.write("항목별 월 지출을 입력하면 합계와 차트를 확인할 수 있습니다.")
 
-categories = ["식비", "교통비", "쇼핑", "통신비", "기타"]
+categories = ["식비", "교통비", "쇼핑", "통신비", "커피"]
 expenses = {}
 for category in categories:
     expenses[category] = st.number_input(
